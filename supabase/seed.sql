@@ -1,0 +1,5 @@
+insert into courses (title, description, duration, students, rating, price, image_url, tags) values
+('Introduction to Web Development', 'Learn the fundamentals of web development including HTML, CSS, and JavaScript.', '8 weeks', 1234, 4.8, '$99.99', 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800', ARRAY['Web Development', 'Beginner', 'Coding']),
+('Advanced React Patterns', 'Master advanced React concepts and patterns for building scalable applications.', '6 weeks', 856, 4.9, '$149.99', 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800', ARRAY['React', 'Advanced', 'JavaScript']),
+('UI/UX Design Fundamentals', 'Learn the principles of user interface and user experience design.', '10 weeks', 723, 4.7, '$129.99', 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800', ARRAY['Design', 'UI/UX', 'Creative']),
+('Data Science Essentials', 'Introduction to data analysis, visualization and machine learning.', '12 weeks', 945, 4.85, '$199.99', 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800', ARRAY['Data Science', 'Python', 'Analytics']);
